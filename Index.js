@@ -55,7 +55,7 @@ client.connect(err => {
         registeredActivitiesCollection.insertOne(registeredActivities)
         .then(result => {
             console.log("data added successdully");
-            res.redirect('https://volunteer-network-dcf20.web.app/registeredActivities') 
+            res.redirect('http://localhost:3000/registeredActivities') 
         })
     })
 
